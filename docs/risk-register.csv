@@ -1,0 +1,6 @@
+﻿Risk ID,Risk,Potential Impact,Likelihood,Impact Rating,Suggested Treatment,Status
+RISK-001,Firewall profile not enabled as required,Unauthorized network exposure or policy non-compliance,Medium,High,Review firewall profile and approved policy; escalate before changing settings,"Open - example risk, not an observed finding"
+RISK-002,Endpoint protection status cannot be verified,Potentially reduced detection coverage or visibility gap,Medium,High,Confirm active approved endpoint protection and management status,"Open - example risk, not an observed finding"
+RISK-003,Remote Desktop enabled without documented need,Unnecessary remote-access exposure,Low,High,"Confirm business need, approved access path, authentication controls, and network restrictions","Open - example risk, not an observed finding"
+RISK-004,Excessive local administrator membership,Higher impact if an account is compromised,Medium,High,Review local admin membership against approved role requirements,"Open - example risk, not an observed finding"
+RISK-005,Backups have not been restore-tested,Recovery may fail when needed,Medium,High,Schedule an authorized restore test and record evidence,"Open - example risk, not an observed finding"
